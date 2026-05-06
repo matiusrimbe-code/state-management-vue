@@ -1,7 +1,7 @@
 <script setup>
 import Parent from './components/Parent.vue'
 import { provide, ref } from 'vue'
-const numbers = ref([1, 2, 3, 4, 5, 6, 7])
+const numbers = ref([1, 2, 3, 4, 5])
 
 provide('numbers', numbers)
 </script>
